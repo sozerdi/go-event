@@ -6,7 +6,7 @@ There is a need of MySQL database to store events.
 ## Prerequsities
 
 After installations have been done, there are some other issues which are needed to complete prior
-to use the API or histogram. If the events table does not exist in database, it should be created by running table.go.
+to use the API or histogram. At first database configuration should be set via properties.ini file. If the events table does not exist in database, it should be created by running table.go.
 Then the main.go should be run in order to wake the system up.
 
 ## Usage
