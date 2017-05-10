@@ -9,7 +9,8 @@ import (
 	"strconv"
 	"strings"
 )
-
+//********* This code is taken from "google.golang.org/grpc/benchmark/stats" *******************
+//********* It is modified because of bucket requirement *******************
 // Histogram accumulates values in the form of a histogram with
 // exponentially increased bucket sizes.
 type Histogram struct {
