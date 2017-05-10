@@ -12,10 +12,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"io/ioutil"
 	. "time"
-	"google.golang.org/grpc/benchmark/stats"
 	"math/rand"
 	"os"
 	"github.com/BurntSushi/toml"
+	"./src/histogram"
 )
 
 var Histogram *stats.Histogram
